@@ -25,19 +25,21 @@ main.container{
     /* border: 5px solid black; */
     padding: 20px 20px 20px 20px
 }
+/* Image background top */
 main.container .bgTop{
     position: absolute;
     left: -230px;
     top: -200px;
     /* border: 2px solid black; */
 }
+/* Image background bottom */
 main.container .bgBottom{
     position: absolute;
     bottom: -220px;
     right: -220px;
     /* border: 2px solid black; */
 }
-
+/* full profile container */
 .containerProfile{
     display: block;
     position: relative;
@@ -51,10 +53,12 @@ main.container .bgBottom{
     /* border: 1px solid red; */
 }
 
+/* avatar img div*/
 .avatar {
     margin-bottom: -2rem;
 }
 
+/* the img */
 #imgVictor{
     display: flex;
     position: relative;
@@ -63,7 +67,7 @@ main.container .bgBottom{
     border-radius: 50%;
     border: 3px solid white;
 }
-
+/* <hr> inside .containerProfile */
 .containerProfile hr{
     display: block;
     color: hsl(0, 0%, 59%);
@@ -72,6 +76,7 @@ main.container .bgBottom{
     margin: 1.5rem 0;
 }
 
+/* the div line for name and age */
 .containerProfile .name{
     font-size: 18px;
     display: flex;
@@ -79,6 +84,7 @@ main.container .bgBottom{
     justify-content: center;
     margin-bottom: 0.5rem;
 }
+/* all h4 tags */
 .containerProfile h4 {
     font-size: 18px;
     font-weight: 700;
@@ -89,12 +95,14 @@ main.container .bgBottom{
     color: hsl(229, 23%, 23%);
 }
 
+/* span tag used in age */
 .containerProfile span {
     font-weight: 400;
-    margin-left: 10px; 
+    margin-left: 8px; 
     color: hsl(227, 10%, 46%);
 }
 
+/* <p> tag used to City */
 .containerProfile p {
     font-size: 12px;
     font-weight: 400;
@@ -103,6 +111,7 @@ main.container .bgBottom{
     text-align: center;
     color: hsl(227, 10%, 46%)
 }
+/* <p> tags used in social div */
 .containerProfile .social p{
     font-size: 10px;
     font-weight: 400;
@@ -112,10 +121,14 @@ main.container .bgBottom{
     text-align: center;
     color: hsl(227, 10%, 46%)
 }
-
-
+/* .social div */
 .containerProfile .social {
     display: flex;
     justify-content: space-around;
+}
+
+@media (min-width: 900px)
+{
+
 }
 
