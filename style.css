@@ -12,31 +12,34 @@ body{
     justify-content: center;
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat;
-    padding: auto;
+    /* padding: auto; */
     min-height: 100vh;
     min-width: 100vw;
+    overflow: hidden;
 }
 
 main.container{
     display: flex;
     max-width: 375px;
-    min-height: 60vh;
+    max-height: 800px;
     overflow: hidden;
     /* border: 5px solid black; */
-    padding: 20px 20px 20px 20px
+    padding: 20px;
 }
 /* Image background top */
-main.container .bgTop{
+.bgTop{
     position: absolute;
-    left: -230px;
-    top: -200px;
+    width: 100%;
+    left: -180px;
+    top: -50px;
     /* border: 2px solid black; */
 }
 /* Image background bottom */
-main.container .bgBottom{
+.bgBottom{
     position: absolute;
-    bottom: -220px;
-    right: -220px;
+    width: 100%;
+    bottom: -80px;
+    right: -180px;
     /* border: 2px solid black; */
 }
 /* full profile container */
@@ -129,6 +132,24 @@ main.container .bgBottom{
 
 @media (min-width: 900px)
 {
+    body{
+        border: auto;
+    }
+    main.container{
+        max-width: 900px;
+    }
+
+    .bgTop{
+        width: 50%;
+        top: -400px;
+        left: 20px;
+    }
+
+    .bgBottom{
+        width: 60%;
+        right: -200px;
+        bottom: -600px;
+    }
 
 }
 
