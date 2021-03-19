@@ -28,18 +28,23 @@ main.container{
 }
 /* Image background top */
 .bgTop{
-    position: absolute;
-    width: 100%;
-    left: -180px;
-    top: -50px;
+    position: fixed;
+    width: 500px;
+    height: auto;
+    max-width: 700px;
+    top: -200px;
+    left: -300px;
+    transform: rotate(-45deg); 
     /* border: 2px solid black; */
 }
 /* Image background bottom */
 .bgBottom{
-    position: absolute;
-    width: 100%;
-    bottom: -80px;
-    right: -180px;
+    position: fixed;
+    width: 500px;
+    height: auto;
+    max-width: 700px;
+    bottom: -200px;
+    right: -300px;
     /* border: 2px solid black; */
 }
 /* full profile container */
@@ -48,7 +53,7 @@ main.container{
     position: relative;
     width: 350px;
     height: 360px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: white;
     overflow: hidden;
     align-items: center;
@@ -140,15 +145,20 @@ main.container{
     }
 
     .bgTop{
-        width: 50%;
-        top: -400px;
-        left: 20px;
+        width: 100%;
+        height: auto;
+        max-width: 978px;
+        top: -300px;
+        left: -50px;
+        transform: rotate(-30deg);
     }
 
     .bgBottom{
-        width: 60%;
-        right: -200px;
-        bottom: -600px;
+        width: 100%;
+        height: auto;
+        max-width: 978px;
+        right: -30px;
+        bottom: -500px;
     }
 
 }
